@@ -44,3 +44,15 @@ body {
     object-fit: cover;
     max-height: 350px;
 }
+
+.card-custom2 {
+  max-width: 500px;  
+  border: 2px solid #d1c4e9;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-custom2:hover {
+  transform: translateY(-5px);
+  border-color: #ff256e;
+  box-shadow: 0px 6px 16px rgba(0,0,0,0.15);
+}
