@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabrina De Andrade - Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="brand-icon">✨</span>
+        <span class="brand-text">Sabrina De Andrade</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">
+             <i class="bi bi-house-fill"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">
+             <i class="bi bi-code-square"></i> Projetos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contatos.html">
+              <i class="bi bi-person-fill"></i> Sobre
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/sabrina-de-andrade-9b85b0213" target="_blank">
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/SabrinaDeAndrade" target="_blank">
+              <i class="bi bi-github"></i> GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-content">
+          <h1 class="hero-title animate-fade-in">
+            Olá, eu sou <span class="highlight">Sabrina</span>
+          </h1>
+          <p class="hero-subtitle animate-fade-in-delay">
+            Desenvolvedora Full Stack em formação, apaixonada por criar experiências digitais incríveis
+          </p>
+          <div class="hero-buttons animate-fade-in-delay-2">
+            <a href="#projetos" class="btn btn-primary btn-lg me-3">
+              <i class="bi bi-code-square"></i> Ver Projetos
+            </a>
+            <a href="#contatos" class="btn btn-outline-primary btn-lg">
+              <i class="bi bi-envelope"></i> Contato
+            </a>
+          </div>
+          <div class="hero-stats mt-4 animate-fade-in-delay-3">
+            <div class="stat-item">
+              <h3 class="stat-number">2+</h3>
+              <p class="stat-label">Projetos Em Feiras Científicas</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="stat-number">3+</h3>
+              <p class="stat-label">Anos de Estudo</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="stat-number">5+</h3>
+              <p class="stat-label">Tecnologias</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <div class="hero-image animate-float">
+            <div class="image-decoration"></div>
+            <i class="bi bi-code-slash hero-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <i class="bi bi-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="projects-section">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Meus Projetos</h2>
+        <p class="section-subtitle">Confira alguns dos trabalhos que desenvolvi</p>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Projeto 1 -->
+        <div class="col-lg-6 project-item">
+          <div class="card project-card shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="public/loja-ursinho.png" class="card-img-top" alt="Loja de Ursinhos">
+          
+            </div>
+            <div class="card-body">
+              <div class="project-tags mb-2">
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-primary">CSS</span>
+                <span class="badge bg-primary">JavaScript</span>
+              </div>
+              <h5 class="card-title">Loja de Ursinhos</h5>
+              <p class="card-text">Projeto desenvolvido com HTML, CSS e JavaScript puro. A aplicação simula uma loja virtual de ursinhos de pelúcia, onde é possível pesquisar produtos, adicionar ao carrinho e verificar o estoque em tempo real.</p>
+              <div class="project-footer">
+                <a href="https://github.com/SabrinaDeAndrade/LOJA-DE-URSINHOS-DE-PELUCIA" class="btn btn-sm btn-outline-primary">
+                  <i class="bi bi-github"></i> Código
+                </a>
+                <a href="https://sabbzpelucias.netlify.app" class="btn btn-sm btn-primary">
+                  <i class="bi bi-box-arrow-up-right"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="col-lg-6 project-item">
+          <div class="card project-card shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="public/astroguia.png" class="card-img-top" alt="AstroGuia">
+             
+            </div>
+            <div class="card-body">
+              <div class="project-tags mb-2">
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-primary">CSS</span>
+                <span class="badge bg-primary">JavaScript</span>
+              </div>
+              <h5 class="card-title">AstroGuia</h5>
+              <p class="card-text">Aplicação web que reúne informações sobre astrologia, organizada de forma simples e intuitiva. Desenvolvida em HTML, CSS e JavaScript, com foco em interface limpa e responsiva.</p>
+              <div class="project-footer">
+                <a href="https://github.com/SabrinaDeAndrade/ASTROGUIA" class="btn btn-sm btn-outline-primary">
+                  <i class="bi bi-github"></i> Código
+                </a>
+                <a href="https://oastroguia.netlify.app" class="btn btn-sm btn-primary">
+                  <i class="bi bi-box-arrow-up-right"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="col-lg-6 project-item">
+          <div class="card project-card shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="public/jaquesantos.png" class="card-img-top" alt="Projeto 3">
+              <div class="card-overlay">
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="project-tags mb-2">
+                <span class="badge bg-primary">HTML</span>
+                <span class="badge bg-primary">CSS</span>
+                <span class="badge bg-primary">Bootstrap</span>
+              </div>
+              <h5 class="card-title">Site Designer</h5>
+              <p class="card-text">Site portfólio para cliente designer estética. Explorei a relação cliente-profissional e o desenvolvimento bootstrap.
+                <div class="project-footer">
+                <a href="https://github.com/SabrinaDeAndrade/JaqueSantosDesigners" class="btn btn-sm btn-outline-primary">
+                  <i class="bi bi-github"></i> Código
+                </a>
+                <a href="https://jaquesantosdesigners.netlify.app" class="btn btn-sm btn-primary">
+                  <i class="bi bi-box-arrow-up-right"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 4 -->
+        <div class="col-lg-6 project-item">
+          <div class="card project-card shadow-sm">
+            <div class="card-img-wrapper">
+              <img src="public/projeto4.jpg" class="card-img-top" alt="Projeto 4">
+              <div class="card-overlay">
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="project-tags mb-2">
+                <span class="badge bg-primary">JavaScript</span>
+                <span class="badge bg-primary">API</span>
+                <span class="badge bg-primary">Front-end</span>
+              </div>
+              <h5 class="card-title">Projeto 4</h5>
+              <p class="card-text">Sistema simples voltado para gerenciamento de informações. Trabalhei a lógica do front-end e a integração com APIs, reforçando conhecimentos em manipulação de dados.</p>
+              <div class="project-footer">
+                <a href="#" class="btn btn-sm btn-outline-primary">
+                  <i class="bi bi-github"></i> Código
+                </a>
+                <a href="#" class="btn btn-sm btn-primary">
+                  <i class="bi bi-box-arrow-up-right"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projeto 5 -->
+        <div class="col-lg-12 project-item">
+          <div class="card project-card project-card-featured shadow-sm">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <div class="card-img-wrapper">
+                  <img src="public/investimentos-java.png" class="card-img-featured" alt="Projetos Backend Java">
+                  <div class="card-overlay">
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="card-body h-100 d-flex flex-column">
+                  <div class="project-tags mb-2">
+                    <span class="badge bg-success">Java</span>
+                    <span class="badge bg-success">Back-end</span>
+                    <span class="badge bg-success">OOP</span>
+                    <span class="badge bg-success">Spring</span>
+                  </div>
+                  <h5 class="card-title">Projetos Back-end em Java</h5>
+                  <p class="card-text">Conjunto de aplicações Java voltadas para back-end, com foco em estrutura de dados, manipulação de informações e boas práticas da linguagem. Desenvolvidos para ampliar experiência em programação orientada a objetos.</p>
+                  <p class="card-text"><small class="text-muted">Inclui projetos com Spring Boot, APIs RESTful, integração com bancos de dados e implementação de padrões de projeto.</small></p>
+                  <div class="project-footer mt-auto">
+                    <a href="#" class="btn btn-sm btn-outline-success">
+                      <i class="bi bi-github"></i> Código
+                    </a>
+                    <a href="#" class="btn btn-sm btn-success">
+                      <i class="bi bi-box-arrow-up-right"></i> Ver Repositório
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contatos -->
+  <section id="contatos" class="contact-section">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="section-subtitle">Vamos conversar sobre seu próximo projeto</p>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="contact-card p-5 shadow-sm">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="bi bi-envelope-fill"></i>
+                  </div>
+                  <div class="contact-info">
+                    <h5>Email</h5>
+                    <a href="mailto:devsabrinaandrade@gmail.com">devsabrinaandrade@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="bi bi-telephone-fill"></i>
+                  </div>
+                  <div class="contact-info">
+                    <h5>Telefone</h5>
+                    <a href="tel:+5547984673159">(47) 98467-3159</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="bi bi-linkedin"></i>
+                  </div>
+                  <div class="contact-info">
+                    <h5>LinkedIn</h5>
+                    <a href="https://www.linkedin.com/in/sabrina-de-andrade-9b85b0213" target="_blank">Sabrina De Andrade</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="bi bi-github"></i>
+                  </div>
+                  <div class="contact-info">
+                    <h5>GitHub</h5>
+                    <a href="https://github.com/SabrinaDeAndrade" target="_blank">@SabrinaDeAndrade</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <p class="mb-0">&copy; 2025 Sabrina De Andrade. Todos os direitos reservados.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/sabrina-de-andrade-9b85b0213" target="_blank" class="social-link">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/SabrinaDeAndrade" target="_blank" class="social-link">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="mailto:devsabrinaandrade@gmail.com" class="social-link">
+              <i class="bi bi-envelope-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn" class="scroll-top-btn" onclick="scrollToTop()">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
